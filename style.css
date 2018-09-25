@@ -22,12 +22,12 @@
 		}
 		
 		.first-row > div:nth-child(odd){
-			background:#ddd;
-			border:1px black solid;
+			!--background:#ddd;
+			!--border:1px black solid;
 		}
 		.first-row > div:nth-child(even){
-			background:#eeef;
-			border:1px black solid;
+			!--background:#eeef;
+			!--border:1px black solid;
 		}
 		.main{
 				display:grid;
@@ -39,12 +39,12 @@
 		}
 		
 		.main > div:nth-child(odd){
-			background:#ddd;
-			border:1px black solid;
+			!--background:#ddd;
+			!--border:1px black solid;
 		}
 		.main > div:nth-child(even){
-			background:#eeef;
-			border:1px black solid;
+			!--background:#eeef;
+			!--border:1px black solid;
 		}
 		#box6{
 			grid-column:1/2;
