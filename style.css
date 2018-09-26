@@ -74,9 +74,8 @@
 		}
 		.body{
 			!--background-image: url("https://i.imgur.com/iNFYet3.jpg");
-			background-repeat: no-repeat;
-			 background-size:cover;
-			 background:		#DDDDDD;
+		
+			 background:#DDDDDD;
 		}
 		#box8{
 			grid-column:5/6;
