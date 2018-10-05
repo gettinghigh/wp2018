@@ -6,7 +6,9 @@ body {
    
    height:100vh;
    background-color:black;
-   
+   background-image: url("https://i.imgur.com/alDo4Bo.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
  }
 
 .container{
@@ -15,7 +17,7 @@ position:relative;
    flex-direction:column;
    justify-content:center;
    align-items:center;
-	background-color:#E9D4CD;
+	background-color:#FF5800;
 	width:43.6%;
 	height:69%;
 	z-index:3;
