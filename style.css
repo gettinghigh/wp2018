@@ -4,9 +4,9 @@ body {
    justify-content:center;
    align-items:center;
    
-   
    height:100vh;
    background-color:black;
+   
  }
 
 .container{
@@ -71,14 +71,30 @@ position:relative;
 	visibility:hidden;
 	position:absolute;
 	background-color:white;
-	border:1px black solid;
+	//border:1px black solid;
 	z-index:4;
-}
-#white > div{
 	display:inline-flex;
-	border:1px black solid;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
 }
-
+.center{
+	display:inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+	 font-family:"Roboto", sans-serif;
+	font-size:50px;
+	font-weight:bold;
+	overflow:hidden;
+	position:relative;
+	left: -50px;
+	top: 50px;
+}
+.center > span{
+	position:relative;
+	top:-100px;
+}
 
 
 

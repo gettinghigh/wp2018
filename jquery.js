@@ -25,7 +25,15 @@ $(".button").click(function(){
 	$("#white").css('left', x);
 	$("#white").css('top', y);
 	$("#white").css('visibility', "visible");
-	
+	var i = 1200;
+	$("span:nth-child(1)").delay((1500-i)).animate({top:'0px'},"slow");
+	$("span:nth-child(2)").delay((1750-i)).animate({top:'0px'},"slow");
+	$("span:nth-child(3)").delay((2000-i)).animate({top:'0px'},"slow");
+	$("span:nth-child(4)").delay((2250-i)).animate({top:'0px'},"slow");
+	$("span:nth-child(5)").delay((2500-i)).animate({top:'0px'},"slow");
+	$("span:nth-child(6)").delay((2750-i)).animate({top:'0px'},"slow");
+	$("span:nth-child(7)").delay((3000-i)).animate({top:'0px'},"slow");
+	$("span:nth-child(8)").delay((3250-i)).animate({top:'0px'},"slow");
 });
 });
 
