@@ -31,18 +31,17 @@ position:relative;
 	width:90%;
 	height:72%;
 	//border:black solid 1px;
-	z-index:2;
 	overflow:hidden;
+	z-index:1;
 }
 .up_rec{
-
 	position:relative;
 	left:-100%;
 	background-color:#FEDCA6;
 	width:100%;
 	height:50%;
 	//border:1px black solid;
-	z-index:1;
+	z-index:3;
 }
 .down_rec{
 
@@ -51,8 +50,15 @@ position:relative;
 	background-color:#C6E0FF;
 	width:100%;
 	height:50%;
+	z-index:3;
 }
-
+#white{
+	visibility:hidden;
+	position:absolute;
+	background-color:white;
+	border:1px black solid;
+	z-index:4;
+}
 @keyframes myAnimation
 {
 
