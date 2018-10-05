@@ -80,6 +80,9 @@ position:relative;
 	justify-content: center;
 	align-items:center;
 }
+.button{
+	font-size:40px;
+}
 .center{
 	display:inline-flex;
 	flex-direction: row;
