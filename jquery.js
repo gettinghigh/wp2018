@@ -4,10 +4,12 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
-$(".up_rec").animate({left:'0px'},);
-$(".down_rec").animate({left:'0px'},"slow");
-$(".up_rec").delay(700).animate({left:'66%'},)
+$(".up_rec").animate({left:'0px'},"slow");
+$(".down_rec").delay(100).animate({left:'0px'},"slow");
+$(".up_rec").delay(700).animate({left:'66%'},"slow")
 $(".down_rec").delay(700).animate({left:'66%'},"slow")
+$("#img1").delay(1600).animate({left:'0px'},"slow");
+$("#img2").delay(1700).animate({left:'0px'},"slow");
 
 $(".button").click(function(){
     //alert("The button was clicked.");
@@ -23,6 +25,7 @@ $(".button").click(function(){
 	$("#white").css('left', x);
 	$("#white").css('top', y);
 	$("#white").css('visibility', "visible");
+	
 });
 });
 
